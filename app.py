@@ -8,7 +8,7 @@ st.title("📊 Retirement Pool Simulator")
 # --- Sidebar Inputs ---
 st.sidebar.header("Inputs")
 
-contributors = st.sidebar.slider("Number of Contributors", 10, 1000, 100)
+contributors = st.sidebar.number_input("Initial Property Value (€)", value=1000)
 monthly_contribution = st.sidebar.slider("Monthly Contribution (€)", 50, 2000, 200)
 elderly = st.sidebar.slider("Number of Elderly", 1, 200, 20)
 monthly_payout = st.sidebar.slider("Monthly Payout per Elderly (€)", 200, 3000, 800)
