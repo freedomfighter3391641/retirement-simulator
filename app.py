@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title=" Carevest Simulator", layout="wide")
 
-st.title("📊 Retirement Pool Simulator")
+st.title("📊 Carevest Simulator")
 
 # --- Sidebar Inputs ---
 st.sidebar.header("Inputs")
