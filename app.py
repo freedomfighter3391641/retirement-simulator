@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Retirement Pool Simulator", layout="wide")
+st.set_page_config(page_title=" Carevest Simulator", layout="wide")
 
 st.title("📊 Retirement Pool Simulator")
 
