@@ -11,7 +11,7 @@ st.sidebar.header("Inputs")
 contributors = st.sidebar.number_input("Number of Contributors", value=1000)
 monthly_contribution = st.sidebar.number_input("Monthly contribution", value=10000)
 elderly = st.sidebar.slider("Number of Elderly", 1, 200, 20)
-monthly_payout = st.sidebar.slider("Monthly Payout per Elderly (€)", 200, 2000, 800,)
+monthly_payout = st.sidebar.number_input("Monthly contribution", value=5000)
 property_value = st.sidebar.number_input("Initial Property Value (€)", value=500000)
 growth_rate = st.sidebar.slider("Annual Growth Rate (%)", 0.0, 15.0, 5.0) / 100
 years = st.sidebar.slider("Years", 1, 40, 20)
